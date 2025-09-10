@@ -64,7 +64,7 @@ class AllBooks {
             System.out.println("Invalid book number!");
         } else {
             library[num-1]._Checkout = true;
-            System.out.println("Book checked out successfully!");
+            System.out.println("Book checked out!");
         }
     }
     void ReturnBook() {
